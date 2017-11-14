@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fileCoDoc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fileCoDoc_jar</output-path>
+    <root id="archive" name="fileCoDoc.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="fileCoDoc" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/itextpdf-5.4.4.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/itextpdf-5.4.4.jar" />
+    </root>
+  </artifact>
+</component>
