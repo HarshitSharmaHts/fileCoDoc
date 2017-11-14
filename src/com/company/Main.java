@@ -75,15 +75,6 @@ public class Main extends Application
 		/**
 		 * Action Events
 		 */
-		frontPageButton.setOnAction(e ->
-		{
-            primaryStage.setTitle("fileCoDoc");
-			gridPane.getChildren().clear();
-			gridPane.add(assignmentPageButton,0,0);
-			gridPane.add(copyPastePageButton,1,0);
-			borderPane.setCenter(f.content);
-		});
-
 
 		copyPastePageButton.setOnAction(e ->
 		{
@@ -93,6 +84,17 @@ public class Main extends Application
 			gridPane.add(assignmentPageButton,0,0);
 			borderPane.setCenter(c.content);
 		});
+
+
+		frontPageButton.setOnAction(e ->
+		{
+			primaryStage.setTitle("fileCoDoc");
+			gridPane.getChildren().clear();
+			gridPane.add(assignmentPageButton,0,0);
+			gridPane.add(copyPastePageButton,1,0);
+			borderPane.setCenter(f.content);
+		});
+
 
 		assignmentPageButton.setOnAction(e ->
 		{
