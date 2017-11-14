@@ -15,20 +15,11 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
-/**
- * This class is an Application class that will
- * provide a desktop Application with good gui.
- * */
-
 public class Main extends Application
 {
 
-	/**
-	 * @Driver function start this function is going
-	 * to be invoked, when you run the application.
-	 * */
 	@Override
-	public void start(Stage primaryStage)
+	public void start(Stage primaryStage) throws Exception
 	{
 		Rectangle2D visualBounds = Screen.getPrimary().getVisualBounds();   /*!< A Rectangle2D instance visualBounds */
 
