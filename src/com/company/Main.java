@@ -15,7 +15,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
-/**!
+/**
  * This class is an Application class that will
  * provide a desktop Application with good gui.
  * */
